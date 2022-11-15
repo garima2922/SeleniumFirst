@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-14T20:18:48 EST" name="Default suite" finished-at="2022-11-14T20:19:08 EST" duration-ms="20413">
+    <groups>
+    </groups>
+    <test started-at="2022-11-14T20:18:48 EST" name="Default test" finished-at="2022-11-14T20:19:08 EST" duration-ms="20413">
+      <class name="com.abc.tests.TC03_VerifyUserInfo">
+        <test-method is-config="true" signature="initialiseReport()[pri:0, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:18:48 EST" name="initialiseReport" finished-at="2022-11-14T20:18:48 EST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseReport -->
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:18:48 EST" name="setup" finished-at="2022-11-14T20:18:52 EST" duration-ms="3697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ca3d25b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:18:52 EST" name="login" finished-at="2022-11-14T20:18:55 EST" duration-ms="3106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="failedCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:18:55 EST" name="failedCapture" finished-at="2022-11-14T20:18:55 EST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.abc.tests.TC03_VerifyUserInfo.login()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TC03_VerifyUserInfo.login()[pri:0, instance:com.abc.tests.TC03_VerifyUserInfo@78691363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedCapture -->
+        <test-method signature="verifyUser()[pri:1, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:18:55 EST" name="verifyUser" finished-at="2022-11-14T20:19:02 EST" duration-ms="6923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUser -->
+        <test-method is-config="true" signature="failedCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:19:02 EST" name="failedCapture" finished-at="2022-11-14T20:19:02 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.abc.tests.TC03_VerifyUserInfo.verifyUser() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyUser status=SUCCESS method=TC03_VerifyUserInfo.verifyUser()[pri:1, instance:com.abc.tests.TC03_VerifyUserInfo@78691363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedCapture -->
+        <test-method signature="validateEmployeeID()[pri:2, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:19:02 EST" name="validateEmployeeID" finished-at="2022-11-14T20:19:08 EST" duration-ms="6265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmployeeID -->
+        <test-method is-config="true" signature="failedCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:19:08 EST" name="failedCapture" finished-at="2022-11-14T20:19:08 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.abc.tests.TC03_VerifyUserInfo.validateEmployeeID() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=validateEmployeeID status=SUCCESS method=TC03_VerifyUserInfo.validateEmployeeID()[pri:2, instance:com.abc.tests.TC03_VerifyUserInfo@78691363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedCapture -->
+        <test-method signature="logout()[pri:3, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:19:08 EST" name="logout" finished-at="2022-11-14T20:19:08 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="failedCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:19:08 EST" name="failedCapture" finished-at="2022-11-14T20:19:08 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.abc.tests.TC03_VerifyUserInfo.logout()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=TC03_VerifyUserInfo.logout()[pri:3, instance:com.abc.tests.TC03_VerifyUserInfo@78691363] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedCapture -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:19:08 EST" name="closeDriver" finished-at="2022-11-14T20:19:08 EST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.abc.tests.TC03_VerifyUserInfo@78691363]" started-at="2022-11-14T20:19:08 EST" name="generateReport" finished-at="2022-11-14T20:19:09 EST" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.abc.tests.TC03_VerifyUserInfo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-14T19:45:11 EST" name="Suite" finished-at="2022-11-14T19:45:58 EST" duration-ms="46817">
+    <groups>
+    </groups>
+    <test started-at="2022-11-14T19:45:11 EST" name="Search By Name" finished-at="2022-11-14T19:45:58 EST" duration-ms="46817">
+      <class name="com.abc.tests.TC01_SearchEmployees">
+        <test-method is-config="true" signature="initialiseReport()[pri:0, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:10 EST" name="initialiseReport" finished-at="2022-11-14T19:45:11 EST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseReport -->
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:11 EST" name="setup" finished-at="2022-11-14T19:45:41 EST" duration-ms="30563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@53eba4b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.reflect.Method)[pri:0, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:41 EST" name="login" finished-at="2022-11-14T19:45:46 EST" duration-ms="4811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.abc.tests.TC01_SearchEmployees.login(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="failedCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:46 EST" name="failedCapture" finished-at="2022-11-14T19:45:46 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.abc.tests.TC01_SearchEmployees.login(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TC01_SearchEmployees.login(java.lang.reflect.Method)[pri:0, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedCapture -->
+        <test-method signature="searchEmployeesByName(java.lang.reflect.Method)[pri:1, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:46 EST" name="searchEmployeesByName" finished-at="2022-11-14T19:45:56 EST" duration-ms="9387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.abc.tests.TC01_SearchEmployees.searchEmployeesByName(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmployeesByName -->
+        <test-method is-config="true" signature="failedCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:56 EST" name="failedCapture" finished-at="2022-11-14T19:45:56 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.abc.tests.TC01_SearchEmployees.searchEmployeesByName(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=searchEmployeesByName status=SUCCESS method=TC01_SearchEmployees.searchEmployeesByName(java.lang.reflect.Method)[pri:1, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedCapture -->
+        <test-method signature="validateEmployeeResults()[pri:2, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:56 EST" name="validateEmployeeResults" finished-at="2022-11-14T19:45:57 EST" duration-ms="1272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmployeeResults -->
+        <test-method is-config="true" signature="failedCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:57 EST" name="failedCapture" finished-at="2022-11-14T19:45:57 EST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.abc.tests.TC01_SearchEmployees.validateEmployeeResults()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=validateEmployeeResults status=SUCCESS method=TC01_SearchEmployees.validateEmployeeResults()[pri:2, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedCapture -->
+        <test-method signature="logout()[pri:3, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:57 EST" name="logout" finished-at="2022-11-14T19:45:57 EST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Linda Jane] but found [Linda Jane Anderson]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Linda Jane] but found [Linda Jane Anderson]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.abc.tests.TC01_SearchEmployees.logout(TC01_SearchEmployees.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="failedCapture(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:57 EST" name="failedCapture" finished-at="2022-11-14T19:45:57 EST" duration-ms="265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.abc.tests.TC01_SearchEmployees.logout()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logout status=FAILURE method=TC01_SearchEmployees.logout()[pri:3, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedCapture -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:57 EST" name="closeDriver" finished-at="2022-11-14T19:45:58 EST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.abc.tests.TC01_SearchEmployees@6ae5aa72]" started-at="2022-11-14T19:45:58 EST" name="generateReport" finished-at="2022-11-14T19:45:58 EST" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.abc.tests.TC01_SearchEmployees -->
+    </test> <!-- Search By Name -->
+  </suite> <!-- Suite -->
+</testng-results>
